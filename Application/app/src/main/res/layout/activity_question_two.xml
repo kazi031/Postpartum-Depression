@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionTwo"
+    android:background="@drawable/gradient_background">
+
+    <Button
+        android:id="@+id/q2b1"
+        android:layout_width="650dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/lora_bold"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="#795D71"
+        android:text="You don't worry, you just decide to wait for 2-3 days to heal by its own"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <Button
+        android:id="@+id/q2b2"
+        android:layout_width="650dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/lora_bold"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="#795D71"
+        android:text="You don't panic but contact a doctor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q2b1"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/q2b3"
+        android:layout_width="650dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/lora_bold"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="#795D71"
+        android:text="You panic and go to a hospital"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q2b2"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <Button
+        android:id="@+id/q2b4"
+        android:layout_width="650dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/lora_bold"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="#795D71"
+        android:text="You blame yourself"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q2b3"
+        app:layout_constraintVertical_bias="0.228" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lora_bold"
+        android:textSize="20sp"
+        android:text="What do you think you would do in this situation?"
+        android:textColor="#32132B"
+        app:layout_constraintBottom_toTopOf="@+id/q2b1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

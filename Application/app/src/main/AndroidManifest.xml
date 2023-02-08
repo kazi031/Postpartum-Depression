@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ppd">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mother"
+        android:label= "@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PPD">
+        <activity android:name=".QuestionSix" android:screenOrientation="landscape"></activity>
+        <activity android:name=".SceneSix" android:screenOrientation="landscape"/>
+        <activity android:name=".QuestionFive" android:screenOrientation="landscape"/>
+        <activity android:name=".SceneFive" android:screenOrientation="landscape"/>
+        <activity android:name=".QuestionFour" android:screenOrientation="landscape"/>
+        <activity android:name=".SceneFour" android:screenOrientation="landscape"/>
+        <activity android:name=".Result" android:screenOrientation="landscape"/>
+        <activity android:name=".QuestionThree" android:screenOrientation="landscape"/>
+        <activity android:name=".SceneThree" android:screenOrientation="landscape"/>
+        <activity android:name=".QuestionTwo" android:screenOrientation="landscape"/>
+        <activity android:name=".SceneTwo" android:screenOrientation="landscape"/>
+        <activity android:name=".QuestionOne" android:screenOrientation="landscape"/>
+        <activity android:name=".SceneOne" android:screenOrientation="landscape"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
